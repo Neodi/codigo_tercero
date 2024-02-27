@@ -1,0 +1,65 @@
+
+.HEADER{
+    height: 3cm; /* Establece la altura en 3cm */
+    background-color: #69c2d9de; /* Cambia el color de fondo si es necesario */
+    padding: 10px; /* Agrega relleno si es necesario */
+}
+
+
+.igual-tamano {
+    width: auto; 
+    height: 18em; 
+}
+
+#opciones{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #69c2d9de;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+#Jugar{
+    width: 100%;
+    padding: 10px;
+    background-color: #69c2d9de;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#boton{
+    width: 200px; 
+    height: 60px; 
+    font-size: 20px; 
+    padding: 10px 20px; 
+}
+
+#timer{
+    font-size: 50px;
+}
+
+/* Clase para el botón inactivo */
+.boton-inactivo {
+    background-color: rgb(75, 200, 75); /* Color de fondo del botón inactivo */
+    color: white; /* Color del texto del botón inactivo */
+}
+
+/* Clase para el botón activo */
+.boton-activo {
+    background-color: rgb(225, 68, 68); /* Color de fondo del botón activo */
+    color: white; /* Color del texto del botón activo */
+}
+
+.invisible{
+
+    display: none;
+}
+
+.textJugadores{
+    font-weight: bold;
+    text-decoration: underline;
+}
