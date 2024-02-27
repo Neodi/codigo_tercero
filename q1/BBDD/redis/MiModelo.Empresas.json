@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "652980e9d005871f142f8eb2"
+  },
+  "nombre": "Microsoft Corporation",
+  "CIF": "A08221164",
+  "NIF": "N8265180C",
+  "NumTrabajadores": 181000,
+  "direccion": "One Microsoft Way, Redmond, WA 98052, USA",
+  "telefono": "+1 (425) 882-8080"
+},
+{
+  "_id": {
+    "$oid": "652980e9d005871f142f8eb3"
+  },
+  "nombre": "Apple Inc.",
+  "CIF": "A78281211",
+  "NIF": "N8291310A",
+  "NumTrabajadores": 154000,
+  "direccion": "1 Apple Park Way, Cupertino, CA 95014, USA",
+  "telefono": "+1 (408) 996-1010"
+},
+{
+  "_id": {
+    "$oid": "652980e9d005871f142f8eb4"
+  },
+  "nombre": "Amazon.com, Inc.",
+  "CIF": "A10573813",
+  "NIF": "N8108823B",
+  "NumTrabajadores": 1416000,
+  "direccion": "410 Terry Ave N, Seattle, WA 98109, USA",
+  "telefono": "+1 (206) 266-1000"
+},
+{
+  "_id": {
+    "$oid": "652980e9d005871f142f8eb5"
+  },
+  "nombre": "Alphabet Inc. (Google)",
+  "CIF": "A70371133",
+  "NIF": "N7134092C",
+  "NumTrabajadores": 156500,
+  "direccion": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+  "telefono": "+1 (650) 253-0000"
+},
+{
+  "_id": {
+    "$oid": "652980e9d005871f142f8eb6"
+  },
+  "nombre": "Facebook, Inc.",
+  "CIF": "A62270026",
+  "NIF": "N6214418B",
+  "NumTrabajadores": 52534,
+  "direccion": "1 Hacker Way, Menlo Park, CA 94025, USA",
+  "telefono": "+1 (650) 308-7300"
+}]

@@ -1,0 +1,34 @@
+Persona:
+  required_vars:
+    - nombre
+    - apellido
+    - edad
+  admissible_vars:
+    - dni
+    - _id
+    - direccion
+    - telefono
+    - centro_educativo
+    - empresa
+    - especializacion
+    - fecha_graduacion
+    - num_estudios
+Centro_Educativo:
+  required_vars:
+    - nombre
+    - direccion
+    - telefono
+    - _id
+  admissible_vars:
+    - horario
+    - idiomas
+Empresas:
+  required_vars:
+    - nombre
+    - CIF
+    - NIF
+  admissible_vars:
+    - NumTrabajadores
+    - direccion
+    - telefono
+    - _id

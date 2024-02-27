@@ -1,0 +1,335 @@
+[{
+  "_id": {
+    "$oid": "65297e59d005871f142f8e9c"
+  },
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "edad": 30,
+  "dni": "12345678A",
+  "direccion": "Calle Gran Vía, 10, Madrid, España",
+  "telefono": "+34 912 345 678",
+  "centro_educativo": "Universidad Politécnica de Madrid (UPM)",
+  "empresa": "Microsoft Corporation",
+  "especializacion": "Inteligencia Artificial",
+  "fecha_graduacion": "2015-07-15",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      2.16005,
+      41.396705
+    ]
+  },
+  "num_estudios": 3
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8e9d"
+  },
+  "nombre": "María",
+  "apellido": "Rodríguez",
+  "edad": 28,
+  "dni": "87654321B",
+  "direccion": "Carrer Major, 5, Barcelona, España",
+  "telefono": "+34 934 567 890",
+  "especializacion": "Ciencias de Datos",
+  "fecha_graduacion": "2016-06-20",
+  "num_estudios": 4,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.7114,
+      40.415426
+    ]
+  },
+  "centro_educativo": "Universidad de Barcelona"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8e9e"
+  },
+  "nombre": "Pedro",
+  "apellido": "Sánchez",
+  "edad": 32,
+  "dni": "56781234C",
+  "direccion": "Calle Principal, 15, Madrid, España",
+  "telefono": "+34 915 432 109",
+  "centro_educativo": "Universidad Autónoma de Madrid (UAM)",
+  "especializacion": "Machine Learning",
+  "fecha_graduacion": "2014-05-30",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      1.920231,
+      41.604911
+    ]
+  },
+  "num_estudios": 2
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8e9f"
+  },
+  "nombre": "Sofía",
+  "apellido": "Martínez",
+  "edad": 25,
+  "dni": "98765432D",
+  "direccion": "Avenida de Blas Infante, 2, Sevilla, España",
+  "telefono": "+34 955 678 901",
+  "especializacion": "Desarrollo Web",
+  "fecha_graduacion": "2017-12-10",
+  "num_estudios": 5,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.687404,
+      40.42876
+    ]
+  },
+  "centro_educativo": "Universidad de Sevilla"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea0"
+  },
+  "nombre": "Carlos",
+  "apellido": "López",
+  "edad": 29,
+  "dni": "34567890E",
+  "direccion": "Av. Diagonal, 56, Barcelona, España",
+  "telefono": "+34 934 123 456",
+  "especializacion": "Seguridad Informática",
+  "fecha_graduacion": "2013-09-25",
+  "num_estudios": 1,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.689918,
+      40.420014
+    ]
+  },
+  "centro_educativo": "Universidad Complutense de Madrid"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea1"
+  },
+  "nombre": "Laura",
+  "apellido": "Pérez",
+  "edad": 27,
+  "dni": "23456789F",
+  "direccion": "Calle Mayor, 78, Madrid, España",
+  "telefono": "+34 911 234 567",
+  "especializacion": "Redes de Computadoras",
+  "fecha_graduacion": "2018-11-05",
+  "num_estudios": 6,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      2.677311,
+      41.718595
+    ]
+  },
+  "centro_educativo": "Universidad Politécnica de Madrid (UPM)"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea2"
+  },
+  "nombre": "Javier",
+  "apellido": "Rodríguez",
+  "edad": 31,
+  "dni": "65432198G",
+  "direccion": "Carrer Major, 56, Barcelona, España",
+  "telefono": "+34 934 567 890",
+  "especializacion": "Ciencias de Datos",
+  "fecha_graduacion": "2016-07-30",
+  "num_estudios": 3,
+  "empresa": "Google",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.719161,
+      40.435343
+    ]
+  },
+  "centro_educativo": "Universidad de Barcelona"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea3"
+  },
+  "nombre": "Elena",
+  "apellido": "García",
+  "edad": 26,
+  "dni": "98765432H",
+  "direccion": "Calle Serrano, 45, Madrid, España",
+  "telefono": "+34 912 345 678",
+  "especializacion": "Inteligencia Artificial",
+  "fecha_graduacion": "2015-08-20",
+  "num_estudios": 4,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      2.180401,
+      41.401923
+    ]
+  },
+  "centro_educativo": "Universidad Autónoma de Madrid (UAM)"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea4"
+  },
+  "nombre": "Miguel",
+  "apellido": "Martínez",
+  "edad": 30,
+  "dni": "87654321I",
+  "direccion": "Calle Alcalá, 67, Madrid, España",
+  "telefono": "+34 911 678 345",
+  "empresa": "Apple Inc.",
+  "especializacion": "Desarrollo Web",
+  "fecha_graduacion": "2014-04-15",
+  "num_estudios": 2,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.708428,
+      40.415949
+    ]
+  },
+  "centro_educativo": "Universidad Politécnica de Madrid (UPM)"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea5"
+  },
+  "nombre": "Ana",
+  "apellido": "Sánchez",
+  "edad": 29,
+  "dni": "12345678J",
+  "direccion": "Carrer Gran Vía, 123, Barcelona, España",
+  "telefono": "+34 934 234 567",
+  "especializacion": "Big Data",
+  "fecha_graduacion": "2017-06-30",
+  "num_estudios": 5,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -5.975976,
+      37.386023
+    ]
+  },
+  "centro_educativo": "Universidad Autónoma de Madrid (UAM)"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea6"
+  },
+  "nombre": "Roberto",
+  "apellido": "López",
+  "edad": 28,
+  "dni": "34567890K",
+  "direccion": "Calle Princesa, 89, Madrid, España",
+  "telefono": "+34 911 987 234",
+  "empresa": "Amazon.com, Inc.",
+  "especializacion": "Machine Learning",
+  "fecha_graduacion": "2013-12-05",
+  "num_estudios": 1,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.69036,
+      40.4195
+    ]
+  },
+  "centro_educativo": "Universidad de Sevilla"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea7"
+  },
+  "nombre": "Carmen",
+  "apellido": "Pérez",
+  "edad": 27,
+  "dni": "23456789L",
+  "direccion": "Avinguda Diagonal, 45, Barcelona, España",
+  "telefono": "+34 934 987 123",
+  "especializacion": "Seguridad Informática",
+  "fecha_graduacion": "2018-09-10",
+  "num_estudios": 4,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      1.920231,
+      41.604911
+    ]
+  },
+  "centro_educativo": "Universidad de Sevilla"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea8"
+  },
+  "nombre": "Alejandro",
+  "apellido": "Rodríguez",
+  "edad": 30,
+  "dni": "65432198M",
+  "direccion": "Calle Mayor, 45, Madrid, España",
+  "telefono": "+34 912 987 456",
+  "especializacion": "Redes de Computadoras",
+  "fecha_graduacion": "2015-06-25",
+  "num_estudios": 3,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.705868,
+      40.422161
+    ]
+  },
+  "centro_educativo": "Universidad de Sevilla"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8ea9"
+  },
+  "nombre": "Isabel",
+  "apellido": "García",
+  "edad": 26,
+  "dni": "98765432N",
+  "direccion": "Calle Juan de Zoyas, 9, Sevilla, España",
+  "telefono": "+34 934 678 234",
+  "especializacion": "Desarrollo Web",
+  "fecha_graduacion": "2016-10-15",
+  "num_estudios": 6,
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      1.920231,
+      41.604911
+    ]
+  },
+  "centro_educativo": "Universidad de Sevilla"
+},
+{
+  "_id": {
+    "$oid": "65297e59d005871f142f8eaa"
+  },
+  "nombre": "David",
+  "apellido": "Martínez",
+  "edad": 31,
+  "dni": "87654321O",
+  "direccion": "Calle Alcalá, 56, Madrid, España",
+  "telefono": "+34 911 234 987",
+  "especializacion": "Seguridad Informática",
+  "fecha_graduacion": "2014-03-10",
+  "num_estudios": 2,
+  "empresa": "Google",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -3.705868,
+      40.422161
+    ]
+  },
+  "centro_educativo": "Universidad Complutense de Madrid"
+}]

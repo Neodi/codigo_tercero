@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "65297e90d005871f142f8eab"
+  },
+  "nombre": "Universidad Politécnica de Madrid (UPM)",
+  "direccion": "Calle Ramiro de Maeztu, 7, 28040 Madrid, España",
+  "telefono": "+34 910 674 851",
+  "horario": "Lunes a Viernes, 9:00 AM - 6:00 PM",
+  "idiomas": [
+    "Español",
+    "Inglés"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65297e90d005871f142f8eac"
+  },
+  "nombre": "Universidad Autónoma de Madrid (UAM)",
+  "direccion": "Calle Einstein, 28049 Madrid, España",
+  "telefono": "+34 911 978 262",
+  "horario": "Lunes a Viernes, 8:30 AM - 7:00 PM",
+  "idiomas": [
+    "Español",
+    "Inglés"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65297e90d005871f142f8ead"
+  },
+  "nombre": "Universidad de Barcelona",
+  "direccion": "Gran Via de les Corts Catalanes, 585, 08007 Barcelona, España",
+  "telefono": "+34 933 16 01 00",
+  "horario": "Lunes a Viernes, 9:00 AM - 7:00 PM",
+  "idiomas": [
+    "Español",
+    "Catalán",
+    "Inglés"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65297e90d005871f142f8eae"
+  },
+  "nombre": "Universidad de Sevilla",
+  "direccion": "Calle San Fernando, 4, 41004 Sevilla, España",
+  "telefono": "+34 955 42 96 01",
+  "horario": "Lunes a Viernes, 8:00 AM - 6:30 PM",
+  "idiomas": [
+    "Español",
+    "Inglés"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65297e90d005871f142f8eaf"
+  },
+  "nombre": "Universidad Complutense de Madrid",
+  "direccion": "Av. de Séneca, 2, 28040 Madrid, España",
+  "telefono": "+34 913 94 50 00",
+  "horario": "Lunes a Viernes, 8:30 AM - 7:30 PM",
+  "idiomas": [
+    "Español",
+    "Inglés"
+  ]
+}]
