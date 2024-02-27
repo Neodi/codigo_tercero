@@ -1,0 +1,35 @@
+
+/* NoteList.css */
+
+#centrado{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+
+    max-width: 50em;
+    box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.83);
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+#buscarNotas{
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 40em;
+    max-width: 60em;
+    height: 2em;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+
+#buscarNotas:focus {
+  outline: none;
+  border-color: #002aff;
+  border-width: 2px;
+}

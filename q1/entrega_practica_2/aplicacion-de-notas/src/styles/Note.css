@@ -1,0 +1,38 @@
+/*Estilos note*/
+
+.Note-container {
+list-style-type: none;
+border: 1px solid #ddd;
+margin: 10px;
+padding: 10px;
+background-color: #f9f9f9;
+border-radius: 10px; 
+
+box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.83);
+}
+
+.Note-container h2 {
+color: #333;
+}
+
+.Note-container p {
+color: #555;
+}
+
+.Note-container button {
+background-color: #d16671;
+color: #fff;
+padding: 5px 10px;
+border: none;
+cursor: pointer;
+margin-top: 5px;
+border-radius: 5px; 
+
+}
+
+.Note-container button:hover {
+background-color: #dc3545;
+}
+
+
+

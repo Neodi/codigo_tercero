@@ -1,0 +1,44 @@
+
+
+/* Note-Editor.css */
+
+.note-editor-container{
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+
+    margin: auto; /* Agregado para centrar horizontalmente */
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+
+    background-color: #fff;
+    box-shadow: 10px 10px 21px -5px rgba(0,0,0,0.83);
+
+}
+
+#botonAdd{
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.input-field {
+    /* Estilos generales para los campos de entrada */
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #6f6d6d;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+outline: none;
+border-color: rgb(104, 237, 111);
+border-width: 1px;
+}
