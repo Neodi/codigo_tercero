@@ -1,0 +1,86 @@
+GET http://localhost:3000/ HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/programacion HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/ HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/matematicas/calculo HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/programacion/python/basico HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos?ordenar=vistas HTTP/1.1
+
+
+
+### Para los routers
+
+GET http://localhost:3000/api/cursos/programacion HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/matematicas HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/matematicas/calculo HTTP/1.1
+
+###
+
+GET http://localhost:3000/api/cursos/programacion/python/basico HTTP/1.1
+
+
+### 
+POST http://localhost:3000/api/cursos/programacion HTTP/1.1
+Content-Type: application/json
+
+{
+ "id": 11
+}
+### 
+POST http://localhost:3000/api/cursos/matematicas HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 9,
+    "titulo": "Geometría euclidiana",
+    "tema": "geometria",
+    "vistas": 1,
+    "nivel": "avanzado"
+}
+
+###
+
+PUT http://localhost:3000/api/cursos/programacion/2 HTTP/1.1
+Content-Type: application/json
+
+{
+ "id": 2,
+ "titulo": "Python intermedio con proyectos" ,
+ "lenguaje": "python",
+ "vistas": 666,
+ "nivel": "intermedio"
+}
+
+###
+
+PATCH http://localhost:3000/api/cursos/programacion/11 HTTP/1.1
+Content-Type: application/json
+
+{
+ "titulo" : "Python intermedio con proyectos" ,
+ "vistas" : 223996
+}
+
+###
+
+DELETE http://localhost:3000/api/cursos/programacion/1 HTTP/1.1
