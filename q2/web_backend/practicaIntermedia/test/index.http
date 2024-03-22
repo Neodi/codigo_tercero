@@ -1,0 +1,46 @@
+
+
+###
+GET http://localhost:3000/api/comercio HTTP/1.1
+
+###
+GET http://localhost:3000/api/comercio/cif/00001 HTTP/1.1
+
+###  
+
+GET http://localhost:3000/api/comercio/asc HTTP/1.1
+
+###
+POST http://localhost:3000/api/comercio HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombreComercio": "HOLA____3",
+    "cif": "00008",
+    "direccion": "Calle HOLA, 345",
+    "correoElectronico": "HOLA_Mundo@HOLA.com",
+    "telefonoContacto": "1010101010",
+    "idPagina": 11
+}
+
+###
+
+PUT http://localhost:3000/api/comercio/12345678A HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombreComercio": "hola_mundo",
+    "cif": "12345678A",
+    "direccion": "hola_mundo hola_mundo, hola_mundo",
+    "correoElectronico": "hola_mundo@hola_mundo.hola_mundo",
+    "telefonoContacto": "hola_mundo",
+    "idPagina": 1233
+}
+
+###
+
+DELETE http://localhost:3000/api/comercio/deleteFisico/12345678A HTTP/1.1
+
+###
+
+DELETE http://localhost:3000/api/comercio/deleteLogico/00008 HTTP/1.1
